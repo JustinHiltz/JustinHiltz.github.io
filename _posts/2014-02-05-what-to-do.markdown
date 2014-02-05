@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "What to do next"
+date:   2014-02-05 16:02:01
+categories: personal
+---
+
+I'm going to move this blog list to the sidebar as somewhat of an archive feature and put a feed of all the posts in ascending order in the main body.
