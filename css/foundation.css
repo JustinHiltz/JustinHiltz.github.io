@@ -5150,6 +5150,10 @@ th.hide-for-touch {
 		display: inline;
 	}
 	
+	h1, h2, h3, h4, h5, h6 {
+		color: #35363A;
+	}
+	
 	.nav-link {
 		color: #f1f1f1;
 	}

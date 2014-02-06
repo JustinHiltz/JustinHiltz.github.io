@@ -3,4 +3,10 @@ layout: default
 title: Home
 ---
 
-This is the Justin.
+{% for post in site.posts %}
+	<h2>
+		<a class="heading-header" href="{{ post.url }}">{{ post.title }}</a>
+		<small>{{ post.date | date: '%B %d, %Y' }}</small>
+	</h2>
+	<p>{{ post.content }}</p>
+{% endfor %}
