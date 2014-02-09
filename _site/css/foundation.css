@@ -1662,7 +1662,8 @@ button, .button {
     padding-right: 1.25rem;
     padding-bottom: 0.6875rem;
     padding-left: 1.25rem;
-    font-size: 0.6875rem;
+/*    font-size: 0.6875rem;*/
+		font-size: 0.8rem;
     /*     @else                            { font-size: $padding - rem-calc(2); } */ }
   button.expand, .button.expand {
     padding-right: 0;
@@ -5130,7 +5131,7 @@ th.hide-for-touch {
 /* My custom CSS additions */
 
 	.circular {
-		margin-top: 20px;
+/*		margin-top: 20px;*/
 	  width: 200px;
 	  height: 200px;
 	  border-radius: 100px;
@@ -5138,13 +5139,6 @@ th.hide-for-touch {
 	  -webkit-border-radius: 200px;
 	  -moz-border-radius: 200px;
 	  background: url("/img/selfie.jpg") no-repeat;
-	}
-	
-	.selfie {
-		width: 320px;
-	  float: left;
-	  margin: 7px 0 7px 0;
-		border: 1px solid #35363A;
 	}
 	
 	.heading-header {
