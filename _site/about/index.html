@@ -12,34 +12,35 @@
         <!-- Custom CSS -->
 				<link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/foundation.css">
-				<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600">
+				<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600">
 				<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab:400">
+				<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
     </head>
     <body>
         <div class="site">
-          <div class="row header">
+          <div class="row header-container">
             <div class="large-9 columns">
-							<h2>
-								<a class="heading-header" href="/">JustinHiltz.com</a>&nbsp;
+							<h1>
+								<a class="heading-header" href="/">JustinHiltz.com</a>
 								<small>About</small>
-							</h2>
+							</h1>
 						</div>
-						<div class="large-3 columns">
+						<div class="large-3 columns right-header">
 							<ul class="button-group even-3">
-								<li class="tiny button"><a class="nav-link" href="/blog">blog</a></li>
-								<li class="tiny button"><a class="nav-link" href="/work">work</a></li>
-								<li class="tiny button"><a class="nav-link" href="/about">about</a></li>
+								<li><a class="nav-link tiny button" href="/blog">blog</a></li>
+								<li><a class="nav-link tiny button" href="/work">work</a></li>
+								<li><a class="nav-link tiny button" href="/about">about</a></li>
 							</ul>
 						</div>
           </div>
-					<div class="row">
+					<div class="row body-container">
 						<div class="large-9 columns">
-          		<h4>About my work</h4>
+          		<h3>About my work</h3>
 <p>
 	I'm (Cornelis) Justin Hiltz and this is my lovely portfolio site. Currently I'm a student at George Brown College in Toronto studying computer programming. My background is in networking and computer hardware but when a few simple programming opportunities came up at work it was all I could think about so I started teaching myself and eventually decided to go back to school. I primarily focus on web development, especially Ruby on Rails, but I've also worked with PHP, JavaScript, C#, Python, HTML and CSS. What I like most about web development is how fast it moves and how many technologies come together to make something cool.
 </p>
-<h4>About myself</h4>
+<h3>About myself</h3>
 <p>
 	As long as I can remember I have enjoyed computers and electronics. As a kid what I liked best about them was taking them apart and putting them back together. It was so cool seeing how things work and what I could do to change the way that they worked. As I've grown older I'm happier with my laptop and writing software with the same goals. I used to be a Windows guy (gaming) but now I'm a Mac guy.
 </p>
@@ -47,7 +48,7 @@
 	Aside from computing I love design, podcasts, good food, good beer, good coffee, and the outdoors. An ideal vacation for me is a trek out into the backcountry of my home province of Ontario. The Massassauga, Killarney, Algonquin are all great parks that have some great canoeing destinations. The peace and quiet experienced on a lake where there is no cell signal, human or highway noise is one of the best feelings I know. 
 </p>
 <h4>Some of my most favourite podcasts</h4>
-<ul>
+<ul class="no-bullet">
 	<li>
 		<a href="http://www.merlinmann.com/roderick/">Roderick on the Line</a>
 		<small>Merlin Mann and John Roderick</small>
@@ -74,32 +75,27 @@
 	</li>	
 </ul>
 						</div>
-          	<div class="large-3 columns">
-							<img class="selfie" src="/img/selfie.jpg" /> 
-            	<p>
-								<a href="https://twitter.com/justin_hiltz" class="twitter-follow-button" data-show-count="true">
-									Follow @justin_hiltz
-								</a>
-								<script>
-								!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-								</script><br />
-								<a href="https://github.com/justinhiltz">github.com/justinhiltz</a><br />
-            	</p>
+          	<div class="large-3 columns right-body">
+						  <center>
+	<p>
+		<img class="circular" src="/img/selfie.jpg" />
+	</p>
+</center>
+							<p>
+	<a href="https://github.com/justinhiltz">Check out my GitHub profile</a><br />
+</p>
+<a href="https://twitter.com/justin_hiltz" class="twitter-follow-button" data-show-count="true">
+	@justin_hiltz
+</a>
+<script>
+	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+</script>
+	<div class="follows g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/112115002360090652878" data-rel="author" style="margin-top:20px;"></div>
           	</div>
 					</div>
           <div class="footer">
-            
+
           </div>
         </div>
     </body>
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-36710919-2', 'justinhiltz.github.io');
-		  ga('send', 'pageview');
-
-		</script>
 </html>
