@@ -1,4 +1,9 @@
-##Windows now
+---
+layout: post
+title:  "Windows now"
+date:   2014-07-07 21:21:20
+categories: personal
+---
 
 I'm using Windows as my primary operating system at the moment because my Mac died (after I spilled coffee in it) and I don't have the funds to replace it quite yet. It's taking longer than I expected to get into the hang of writing code on this thing which is irritating because I finally have time to get back into programming after the busy period at work.
 
