@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>{{ page.title }}</title>
+		<meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+		<!-- syntax highlighting CSS -->
+		<link rel="stylesheet" href="/css/syntax.css">
 
-        <!-- Custom CSS -->
-				<link rel="stylesheet" href="/css/normalize.css">
-        <link rel="stylesheet" href="/css/foundation.css">
-				<link rel="stylesheet" href="/css/foundation-icons.css">
-				<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600">
-				<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab:400">
-				<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-
-    </head>
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="/css/normalize.css">
+		<link rel="stylesheet" href="/css/foundation.css">
+		<link rel="stylesheet" href="/css/foundation-icons.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab:400">
+		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+	</head>
+	<div class="site">
+	<div class="row header-container">
+		<div class="large-9 columns">
+			<h1>
+				<a class="heading-header" href="/">{{ site.name }}</a>
+				<small>{{ page.title }}</small>
+			</h1>
+		</div>
+		<div class="large-3 columns right-header">
+			<ul class="button-group even-3">
+				<li><a class="nav-link button" href="/blog">Blog</a></li>
+				<li><a class="nav-link button" href="/work">Work</a></li>
+				<li><a class="nav-link button" href="/about">About</a></li>
+			</ul>
+		</div>
+	</div>
