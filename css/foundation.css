@@ -1931,6 +1931,8 @@ code {
 ul,
 ol,
 dl {
+  font-weight: 300;
+  font-style: normal;
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
@@ -2413,7 +2415,12 @@ kbd {
   .posts {
     list-style-type: none; 
   }
-  
+
+  .resume {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
   .header-container {
     margin-bottom: 0;
     padding-bottom: 0;
