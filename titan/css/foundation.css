@@ -2228,7 +2228,7 @@ h6, .h6 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: inherit;
+  color: #5C6D4A;
   text-rendering: optimizeLegibility; }
   h1 small, .h1 small,
   h2 small, .h2 small,
@@ -2291,11 +2291,11 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #1779ba;
+  color: #5C6D4A;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #1468a0; }
+    color: #b9db94;; }
   a img {
     border: 0; }
 
